@@ -1,0 +1,82 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 25}, {310, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WR",
+          "name" : "categor_label",
+          "frame" : "{{85, 144}, {150, 32}}",
+          "uuid" : "28F81966-07F6-4E17-A4BC-49FD209BBFC9",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Choose a category",
+          "font_size" : 20,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 65}, {320, 302}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "EFA6F0A8-49C4-49BE-A8E9-2C129E7EEEC3",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{60, 60}, {200, 200}}",
+          "data_source_items" : "",
+          "tint_color" : "RGBA(0.090196,0.545098,0.839216,1.000000)",
+          "data_source_number_of_lines" : 1,
+          "alpha" : 1,
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "class" : "TableView",
+          "name" : "category_list",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 375}, {300, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "6A81ADC1-C210-4FA6-9CDE-A9CFAF973154",
+          "font_size" : 18,
+          "corner_radius" : 40,
+          "background_color" : "RGBA(0.000000,0.533333,0.866667,1.000000)",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "border_color" : "RGBA(0.737255,0.737255,0.737255,1.000000)",
+          "border_width" : 10,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Submit",
+          "action" : "self.parse_category",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "category_button",
+          "flex" : "WT"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

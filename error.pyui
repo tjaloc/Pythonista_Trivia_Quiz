@@ -1,0 +1,104 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 22}, {308, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "Title",
+          "flex" : "WRB",
+          "frame" : "{{85, 144}, {150, 32}}",
+          "uuid" : "C32672AD-FEA2-433E-9571-D2C40E93BA20",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Error",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 52}, {308, 125}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "A76EDE73-774F-48A2-B057-7529D24B2F6D",
+          "font_size" : 20,
+          "frame" : "{{60, 60}, {200, 200}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "editable" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "message",
+          "flex" : "WHB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 185}, {140, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "B5468DE6-FEA7-4594-8B34-965ABA8FA8D6",
+          "font_size" : 18,
+          "corner_radius" : 40,
+          "background_color" : "RGBA(1.000000,0.800000,0.000000,1.000000)",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "border_color" : "RGBA(0.737255,0.737255,0.737255,1.000000)",
+          "border_width" : 10,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Quit",
+          "action" : "self.quit",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "quit_button",
+          "flex" : "LB"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{170, 185}, {140, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "B5468DE6-FEA7-4594-8B34-965ABA8FA8D6",
+          "flex" : "RB",
+          "corner_radius" : 40,
+          "background_color" : "RGBA(0.000000,0.533333,0.866667,1.000000)",
+          "frame" : "{{120, 144}, {80, 32}}",
+          "border_color" : "RGBA(0.737255,0.737255,0.737255,1.000000)",
+          "border_width" : 10,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Retry",
+          "action" : "self.new_category",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "retry_button",
+          "font_size" : 18
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

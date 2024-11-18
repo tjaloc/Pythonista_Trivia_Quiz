@@ -1,0 +1,162 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 57}, {320, 330}}",
+        "class" : "View",
+        "attributes" : {
+          "flex" : "WH",
+          "border_width" : 0,
+          "alpha" : 0.29999999999999999,
+          "frame" : "{{110, 190}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 50,
+          "uuid" : "B36616A6-9D41-42A5-AABE-72BCC43B2014",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "question_bgd"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 68}, {320, 35}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WB",
+          "name" : "Nr",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "94D2DA19-3D3D-4661-B19F-909DFE0F5568",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Question 1",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 93}, {300, 50}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WB",
+          "name" : "Category",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "ED0A947A-D7A5-4488-B604-72D13ECCF92A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Category",
+          "font_size" : 20,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 144}, {300, 116}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WHB",
+          "name" : "Question",
+          "editable" : false,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "8E3BA2DE-2658-4587-A8B1-1C7FD1E75A67",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 408}, {320, 45}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WT",
+          "name" : "score",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "9E912E00-BC8A-4609-B897-550BF6DD8506",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "0",
+          "font_size" : 40,
+          "font_name" : "AvenirNextCondensed-Heavy"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 295}, {140, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "205041BD-0205-491D-9C7F-2B949DA45380",
+          "flex" : "WRT",
+          "corner_radius" : 40,
+          "background_color" : "RGBA(0.923203,0.278745,0.051289,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "border_color" : "RGBA(0.737255,0.737255,0.737255,1.000000)",
+          "border_width" : 10,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "False",
+          "action" : "self.answer_false",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{170, 295}, {140, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "205041BD-0205-491D-9C7F-2B949DA45380",
+          "flex" : "WLT",
+          "corner_radius" : 40,
+          "background_color" : "RGBA(0.510372,0.733660,0.000000,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "border_color" : "RGBA(0.738562,0.738562,0.738562,1.000000)",
+          "border_width" : 10,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "True",
+          "action" : "self.answer_true",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "true_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

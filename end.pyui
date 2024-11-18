@@ -1,0 +1,83 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 0}, {300, 216}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WHB",
+          "name" : "result",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "5C06503A-C564-4287-8FC8-AB8159A5C05C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Label",
+          "font_size" : 20,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{12, 224}, {140, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "D58E5E6C-AE23-445D-98B6-5833355595F6",
+          "flex" : "WRT",
+          "corner_radius" : 40,
+          "background_color" : "RGBA(1.000000,0.800000,0.000000,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 10,
+          "border_color" : "RGBA(0.737255,0.737255,0.737255,1.000000)",
+          "title" : "Quit",
+          "action" : "self.quit",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "quit_button",
+          "font_size" : 20
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{170, 224}, {140, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "D58E5E6C-AE23-445D-98B6-5833355595F6",
+          "flex" : "WLT",
+          "corner_radius" : 40,
+          "background_color" : "RGBA(0.000000,0.533333,0.866667,1.000000)",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 10,
+          "border_color" : "RGBA(0.737255,0.737255,0.737255,1.000000)",
+          "title" : "Again",
+          "action" : "self.new_category",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "again_button",
+          "font_size" : 20
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

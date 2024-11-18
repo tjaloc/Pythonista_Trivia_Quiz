@@ -1,0 +1,74 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{1, 13}, {320, 91}}",
+        "class" : "Label",
+        "attributes" : {
+          "alpha" : 0.5,
+          "flex" : "WB",
+          "font_size" : 50,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "D5B9C920-FA42-49FC-B7EA-4C0B17AE1CBE",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Trivia Quiz",
+          "name" : "Title b",
+          "font_name" : "AvenirNextCondensed-Heavy"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{-2, 10}, {320, 93}}",
+        "class" : "Label",
+        "attributes" : {
+          "alpha" : 1,
+          "flex" : "WB",
+          "name" : "Title w",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "font_name" : "AvenirNextCondensed-Heavy",
+          "uuid" : "D5B9C920-FA42-49FC-B7EA-4C0B17AE1CBE",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Trivia Quiz",
+          "font_size" : 50,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 83}, {300, 380}}",
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "frame" : "{{110, 190}, {100, 100}}",
+          "flex" : "WH",
+          "name" : "content",
+          "custom_class" : "",
+          "uuid" : "79EEAFD9-18D2-426F-A8DD-187D32B53047"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(0.859477,0.859477,0.859477,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
